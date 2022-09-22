@@ -6,8 +6,8 @@ terraform {
     }
   }
     backend "azurerm" {
-        resource_group_name = "terratest"
-        storage_account_name = "terraformdemo1"
+        resource_group_name = "github-test"
+        storage_account_name = "terraformdemo12"
         container_name       = "tfstatefile"
         key                  = "dev.terraform.tfstate"
 
